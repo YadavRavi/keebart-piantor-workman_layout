@@ -66,10 +66,14 @@
 &kp BACKSPACE  &hml LGUI A  &hml LALT S  &hml LCTRL H  &hml LSHFT T  &kp G    &kp Y  &hmr RSHFT N  &hmr RCTRL E  &hmr RALT O  &hmr RGUI I  &kp DELETE
 &kp LSHFT  &kp Z  &kp X  &kp M  &kp C  &kp V    &kp K  &kp L      &kp COMMA  &kp DOT   &kp FSLH  &kp ESC
 <<<<<<< HEAD
+<<<<<<< HEAD
 &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &lt 3 RALT
 =======
 &kp ESCAPE  &kp Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U  &kp P  &kp SEMI  &kp BSPC  &kp BACKSPACE  &hml LGUI A  &hml LALT S  &hml LCTRL H  &hml LSHFT T  &kp G  &kp Y  &hmr RSHFT N  &hmr RCTRL E  &hmr RALT O  &hmr RGUI I  &kp DELETE  &mo 3  &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &mo 4  &mo 1  &kp TAB  &kp SPACE  &kp RET  &kp SPACE  &mo 2
 >>>>>>> 3984c8f2cb5a6d93a480d6b6a1892f2b833653f0
+=======
+&kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+>>>>>>> parent of 56cc105 (added layers for symbols, nav and umlaute)
 =======
 &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
 >>>>>>> parent of 56cc105 (added layers for symbols, nav and umlaute)
