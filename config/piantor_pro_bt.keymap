@@ -16,7 +16,7 @@
 / {
     macros {
         // German umlauts for macOS (Option+u dead key method)
-        de_ae: german_a_umlaut {
+        de_ae: de_ae {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -24,7 +24,7 @@
             bindings = <&kp LA(U)>, <&kp A>;
         };
 
-        de_oe: german_o_umlaut {
+        de_oe: de_oe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -32,7 +32,7 @@
             bindings = <&kp LA(U)>, <&kp O>;
         };
 
-        de_ue: german_u_umlaut {
+        de_ue: de_ue {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -40,7 +40,7 @@
             bindings = <&kp LA(U)>, <&kp U>;
         };
 
-        de_ss: german_eszett {
+        de_ss: de_ss {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -49,7 +49,7 @@
         };
 
         // Uppercase German umlauts
-        de_AE: german_A_umlaut {
+        de_ae_upper: de_ae_upper {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -57,7 +57,7 @@
             bindings = <&kp LA(U)>, <&kp LS(A)>;
         };
 
-        de_OE: german_O_umlaut {
+        de_oe_upper: de_oe_upper {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -65,7 +65,7 @@
             bindings = <&kp LA(U)>, <&kp LS(O)>;
         };
 
-        de_UE: german_U_umlaut {
+        de_ue_upper: de_ue_upper {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -173,7 +173,7 @@
             bindings = <
 &trans  &trans   &trans  &trans  &trans  &trans    &trans  &trans  &de_ue  &trans  &trans  &trans
 &trans  &de_ae   &de_ss  &trans  &trans  &trans    &trans  &trans  &trans  &de_oe  &trans  &trans
-&trans  &de_AE   &trans  &trans  &trans  &trans    &trans  &trans  &de_UE  &de_OE  &trans  &trans
+&trans  &de_ae_upper  &trans  &trans  &trans  &trans    &trans  &trans  &de_ue_upper  &de_oe_upper  &trans  &trans
 &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
