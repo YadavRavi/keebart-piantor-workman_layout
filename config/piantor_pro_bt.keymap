@@ -124,7 +124,7 @@
             // Right ALT: tap=RALT, hold=German layer (layer 3)
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U  &kp P  &kp SEMI  &kp BSPC  &kp BACKSPACE  &hml LGUI A  &hml LALT S  &hml LCTRL H  &hml LSHFT T  &kp G  &kp Y  &hmr RSHFT N  &hmr RCTRL E  &hmr RALT O  &hmr RGUI I  &kp DELETE  &mo 3  &kp Z  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &mo 3  &kp LGUI  &mo 1  &kp TAB  &kp SPACE  &kp ENTER  &mo 2
+&kp ESCAPE  &kp Q  &kp D  &kp R  &kp W  &kp B  &kp J  &kp F  &kp U  &kp P  &kp SEMI  &kp BSPC  &kp BACKSPACE  &hml LGUI A  &hml LALT S  &hml LCTRL H  &hml LSHFT T  &kp G  &kp Z  &hmr RSHFT N  &hmr RCTRL E  &hmr RALT O  &hmr RGUI I  &kp DELETE  &mo 3  &kp Y  &kp X  &kp M  &kp C  &kp V  &kp K  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &mo 3  &kp LGUI  &mo 1  &kp TAB  &kp SPACE  &kp ENTER  &mo 2
             >;
         };
 
