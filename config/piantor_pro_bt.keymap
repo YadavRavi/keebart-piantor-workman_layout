@@ -180,18 +180,18 @@
         // ┃  Note: Mac shortcuts use raw HID keycodes (not DE_)    ┃
         // ┃        because macOS Cmd shortcuts are position-based   ┃
         // ┃  ╭─────┬─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────┬─────╮
-        // ┃  │     │ Undo│ Cut │Copy │Paste│Redo  │ │HOME │PgDn │PgUp │ END │     │ DEL │
-        // ┃  │     │ GUI │ ALT │ CTL │ SFT │ SelA │ │  <  │  v  │  ^  │  >  │     │     │
-        // ┃  │     │ Undo│     │Find │Save │      │ │W-Lf │W-Dn │W-Up │W-Rt │     │     │
+        // ┃  │     │ Undo│ Cut │Copy │Paste│Redo  │ │HOME │PgUp │PgDn │ END │     │ DEL │
+        // ┃  │     │ GUI │ ALT │ CTL │ SFT │ SelA │ │  ^  │  v  │  <  │  >  │     │     │
+        // ┃  │     │ Undo│     │Find │Save │      │ │W-Up │W-Dn │W-Lf │W-Rt │     │     │
         // ┃  ╰─────┴─────┴─────╮ UML │     │     │ │     │     │     ╭─────┴─────┴─────╯
         // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
         nav_layer {
             display-name = "Nav";
             bindings = <
-&trans         &kp LG(Z)      &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp LG(LS(Z))      &kp HOME       &kp PG_DN      &kp PG_UP      &kp END        &none          &kp DEL
-&trans         &kp LGUI       &kp LALT       &kp LCTRL      &kp LSHFT      &kp LG(A)          &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &none          &trans
-&trans         &kp LG(Z)      &none          &kp LG(F)      &kp LG(S)      &none              &kp LA(LEFT)   &kp LA(DOWN)   &kp LA(UP)     &kp LA(RIGHT)  &none          &trans
+&trans         &kp LG(Z)      &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp LG(LS(Z))      &kp HOME       &kp PG_UP      &kp PG_DN      &kp END        &none          &kp DEL
+&trans         &kp LGUI       &kp LALT       &kp LCTRL      &kp LSHFT      &kp LG(A)          &kp UP         &kp DOWN       &kp LEFT       &kp RIGHT      &none          &trans
+&trans         &kp LG(Z)      &none          &kp LG(F)      &kp LG(S)      &none              &kp LA(UP)     &kp LA(DOWN)   &kp LA(LEFT)   &kp LA(RIGHT)  &none          &trans
                                               &mo UMLAUT     &trans         &trans             &trans         &trans         &trans
             >;
         };
