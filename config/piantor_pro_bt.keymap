@@ -140,7 +140,7 @@
         // ┃  │ ESC │  Q  │  D  │  R  │  W  │  B  │ │  J  │  F  │  U  │  P  │  ?  │ MED │
         // ┃  │ BSP │A/Gui│S/Alt│H/Ctl│T/Sft│  G  │ │  Y  │N/Sft│E/Ctl│O/Alt│I/Gui│ DEL │
         // ┃  │ UML │  Z  │  X  │  M  │  C  │  V  │ │  K  │  L  │  ,  │  .  │  /  │ UML │
-        // ┃  ╰─────┴─────┴─────╮ SYM │ TAB │ NAV │ │ SPC │ RET │ NUM ╭─────┴─────┴─────╯
+        // ┃  ╰─────┴─────┴─────╮ SYM │ TAB │ NAV │ │ RET │ SPC │ NUM ╭─────┴─────┴─────╯
         // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
         base_layer {
@@ -149,7 +149,7 @@
 &kp ESC        &kp DE_Q       &kp DE_D       &kp DE_R       &kp DE_W       &kp DE_B           &kp DE_J       &kp DE_F       &kp DE_U       &kp DE_P       &kp DE_QMARK   &mo MEDIA
 &kp BSPC       &hml LGUI DE_A &hml LALT DE_S &hml LCTRL DE_H &hml LSHFT DE_T &kp DE_G         &kp DE_Y       &hmr RSHFT DE_N &hmr RCTRL DE_E &hmr RALT DE_O &hmr RGUI DE_I &kp DEL
 &mo UMLAUT     &kp DE_Z       &kp DE_X       &kp DE_M       &kp DE_C       &kp DE_V           &kp DE_K       &kp DE_L       &kp DE_COMMA   &kp DE_DOT     &kp DE_FSLH    &mo UMLAUT
-                                              &mo SYM        &kp TAB        &mo NAV            &kp SPACE      &kp RET        &mo NUM
+                                              &mo SYM        &kp TAB        &mo NAV            &kp RET        &kp SPACE      &mo NUM
             >;
         };
 
